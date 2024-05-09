@@ -5,7 +5,7 @@ import rollupConfig from './rollup.config.js'
 import { spawn } from 'child_process'
 import electron from 'electron'
 
-const httpAddress = 'http://localhost:1234'
+const httpAddress = 'http://localhost:8080'
 let electronProcess
 async function build() {
   try {

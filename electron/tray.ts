@@ -53,6 +53,7 @@ export function setTrayIconMenu() {
         { label: 'partyBlobCat', type: 'radio', click: () => changeTrayIcon('partyBlobCat') },
         { label: 'Points', type: 'radio', click: () => changeTrayIcon('points') },
         { label: 'RuncatX', type: 'radio', click: () => changeTrayIcon('runcatX') },
+        { label: 'rap', type: 'radio', click: () => changeTrayIcon('rap') },
       ],
     },
     { type: 'separator' },
